@@ -1,0 +1,21 @@
+{
+    "databases": {
+        "mongo": {
+            "host": "placeholder"
+        },
+        "postgres": {
+            "client": "pg",
+            "connection": {
+                "host": "localhost",
+                "user": "postgres",
+                "password": "postgres",
+                "database": "crossfit"
+            },
+            "debug": true,
+            "pool": {
+                "min": 0,
+                "max": 7
+            }
+        }
+    }
+}

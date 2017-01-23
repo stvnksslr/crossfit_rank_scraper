@@ -1,0 +1,16 @@
+{
+  "name": "crossfit_rank_scraper",
+  "version": "1.0.0",
+  "description": "Series of scripts to scrape crossfit leaderboards",
+  "main": "index.js",
+  "repository": {},
+  "author": "skessler",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "config": "^1.24.0",
+    "knex": "^0.12.6",
+    "moment": "^2.17.1",
+    "pg": "^6.1.2"
+  }
+}
